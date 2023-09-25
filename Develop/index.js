@@ -68,13 +68,16 @@ function writeToFile(fileName, data) {
   - [Questions](#questions)
   
   ## Installation
+  Before using the Readme Generator, ensure you have [Node.js](https://nodejs.org/) installed on your system. To install the required Inquirer.js library, open your terminal and run:
   ${data.installation}
   
   ## Usage
+  To create a README.md file for your project, follow these steps:
+  1. Navigate to the folder where you want to generate the README.md file using the cd command:
   ${data.usage}
   
   ## Contributing
-  ${data.contributing}
+  I would like to give a special thanks to ${data.contributing}
   
   ## Tests
   ${data.tests}
