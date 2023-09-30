@@ -50,7 +50,50 @@ const questions = [
         message: 'Enter your email address:',
       },
     ];
-
+    const licenses = [
+			{
+				name: 'MIT License',
+				badge: 'https://img.shields.io/badge/License-MIT-yellow.svg',
+				description: 'https://opensource.org/licenses/MIT',
+			},
+	
+			{
+				name: 'Unlicense',
+				badge: 'https://img.shields.io/badge/license-Unlicense-blue.svg',
+				description: 'http://unlicense.org/',
+			},
+	
+			{
+				name: 'GNU General Public License',
+				badge: 'https://img.shields.io/badge/License-GPLv3-blue.svg',
+				description: 'https://www.gnu.org/licenses/gpl-3.0',
+			},
+	
+			{
+				name: 'Apache License',
+				badge: 'https://img.shields.io/badge/License-Apache_2.0-blue.svg',
+				description: 'https://opensource.org/licenses/Apache-2.0',
+			},
+	
+			{
+				name: 'Eclipse Public License',
+				badge: 'https://img.shields.io/badge/License-EPL_1.0-red.svg',
+				description: 'https://opensource.org/licenses/EPL-1.0',
+			},
+	
+			{
+				name: 'BSD3 License',
+				badge: 'https://img.shields.io/badge/License-BSD_3--Clause-blue.svg',
+				description: 'https://opensource.org/licenses/BSD-3-Clause',
+			},
+	
+			{
+			name: 'Mozilla Public License',
+			badge: 'https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg',
+			description: 'https://opensource.org/licenses/MPL-2.0',
+			},
+	
+		];
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     const readmeContent = `
@@ -83,7 +126,8 @@ function writeToFile(fileName, data) {
   ${data.tests}
   
   ## License
-  This application is covered under the ${data.license} license.
+  This application is covered under the ${data.license} ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json)
+  license.
   
   ## Questions
   GitHub: [${data.githubUsername}](https://github.com/${data.githubUsername})

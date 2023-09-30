@@ -75,6 +75,7 @@ I would like to give a special thanks to gachoi06 for the starter code
 You can include important project links in your generated README.md, such as:
 
 - [Project Repository](https://github.com/hsolojr/node.js-README)
+[Node.js recording.webm](https://github.com/Hsolojr/Node.js-README/assets/139496108/14b7380d-1f75-48ba-898d-434525513cc3)
 
 ## ScreenShot
 <img width="1440" alt="Screen Shot 2023-09-25 at 1 59 57 PM" src="https://github.com/Hsolojr/Node.js-README/assets/139496108/cac2bb65-69ed-4b2a-9fe8-51ce392bbd35">
